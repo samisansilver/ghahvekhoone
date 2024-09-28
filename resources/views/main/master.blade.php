@@ -74,7 +74,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link disabled" aria-disabled="true">{{ \Illuminate\Support\Facades\Auth::user()->name }}</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
